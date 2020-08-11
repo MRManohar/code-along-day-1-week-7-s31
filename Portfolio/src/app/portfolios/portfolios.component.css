@@ -1,0 +1,41 @@
+#portfolio {
+  /* background: url("https://i1.faceprep.in/ProGrad/Coding-icon.svg");*/
+  background-color: black;
+  color: white;
+  display: flex;
+}
+
+#portfolio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+}
+
+#portfolio div {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px 0;
+  width: 100%;
+}
+
+#portfolioh3 {
+  margin-bottom: 20px;
+}
+
+#portfolio div article {
+  background: white;
+  color: black;
+  height: 200px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  border-radius: 10px;
+}
+
+#portfolio div article p {
+  padding: 0 5px;
+}

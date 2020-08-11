@@ -1,0 +1,36 @@
+#bio {
+  display: flex;
+  align-items: center;
+}
+
+#bio article * {
+  margin: 20px;
+}
+
+.break {
+  display: block;
+}
+
+#bio img {
+  width: 250px;
+  height: 250px;
+  border-radius: 70%;
+  margin: 100px;
+}
+
+p {
+  font-size: 1.5em;
+}
+
+hr {
+  width: 400px;
+}
+
+#home {
+  background: black;
+  color: white;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
